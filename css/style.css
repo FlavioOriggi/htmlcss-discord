@@ -4,15 +4,40 @@
     box-sizing: border-box;
 }
 
-nav{
-    background-color: #255ee9;
-    width: 100%;
+/* SEZIONE HEADER */
+
+/* sezione menu */
+.nav{    
+    width: 80%;
     height: 100px;
     text-align: center;
-    line-height: 100px;    
+    line-height: 100px; 
+    position: absolute;   
+    top: 10px;
+    z-index: 2;
+    left: 10%;
+    
 }
 
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
 
+.logo{
+    float: left;
+    vertical-align: middle;
+}
+
+.logo img{    
+    vertical-align: middle;
+}
+
+/* sezione menu */
+ul{
+    display: inline-block;
+}
 
 #main-header nav li{
     display: inline-block;    
@@ -24,40 +49,30 @@ nav{
     box-sizing: border-box;
 }
 
-/* li:hover {    
-      color: black;
-      display: block;
-} */
-
 .menu-centrale{
     padding-left: 20px ;
     padding-right: 20px;
-    
+    display: inline-block;    
 }
-
-.menu-centrale-lato-sx{
-    margin-left: 250px;
-}
-
-.menu-centrale-lato-dx{
-    margin-right: 250px;
-} 
 
 a{
     color: white;    
     font-size: 18px;  
     font-weight: bolder;
+    text-decoration: none;
 }
 
-
-#log-in{
+/* bottone accedi */
+.butn-accedi{    
+    float: right;    
+    margin-top: 30px;
     color: black;
-    background-color: white;
-    width: 50px;
-    height: 20px;
+    background-color: white;    
+    width: 70px;
+    height: 40px;
     text-align: center;
-    border-radius: 3px;
-    
+    border-radius: 50px;
+    line-height: 40px;     
 }
 
 
@@ -67,8 +82,9 @@ a{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 600px;
     position: relative;
+    
 }
 
 .jumbotron > .jumbotron-content{
@@ -95,37 +111,33 @@ a{
 .download-open{
     padding-top: 20px;
 }
-.button-download{
-    background-color: #ffffff;
-    border: none;
+
+.butn-mac{
     color: black;
-    padding: 10px 15px;
+    background-color: white;    
+    width: 210px;
+    height: 60px;
+    font-size: 20px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px; 
-    font-weight: 300;   
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-right: 10px;
+    border-radius: 50px;
+    line-height: 60px;
+    float: left;
+    margin-left: 10%;    
 }
 
-.button-open{
-    background-color: #23272a;
-    border: none;
+.butn-open{    
     color: white;
-    padding: 10px 15px;
+    background-color: #23272a;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px; 
-    font-weight: 300;  
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-left: 10px;
+    border-radius: 50px;
+    line-height: 60px;
+    float: right;
+    margin-right: 10%;    
 }
+
 
 /* INIZIO SEZIONE MAIN/BLOCCHI */
 .sezione{
@@ -136,7 +148,7 @@ a{
 .contenuto-sezione{
     width: 60%;
     margin: auto;
-    position: relative;
+    
 }
 
 .contenuto-sezione h3{
@@ -150,17 +162,62 @@ a{
     margin-top: 20px;
 }
 
-#testo-sezione{
-    position: absolute;
-    top: 45px;
-    right: 10px;
+.item{
+    float: left;
 }
+
+.testo-sezione{
+    float: right;
+    margin-top: 35px;
+    word-wrap: break-word;
+}
+
+
 
 
 /* seconda sezione */
 
 .sfondo-grigio{
-    background-color: #f6f6f6; 
-    /* padding-top: 60px;        */
+    background-color: #f6f6f6;   
     margin: auto;
+}
+
+/* footer */
+footer{
+    background-color: #23272a;
+    height: 600px;
+    width: 100%;
+}
+
+.footer-content{
+    background-color: darkgreen;
+    width: 80%;
+    height: 400px;
+} 
+
+.sezione-footer-dx{
+    
+}
+
+
+
+
+.logo{
+    float: left;
+    margin-top: 30px;
+
+}
+
+
+
+.butn-registrati{    
+    float: right;    
+    margin-top: 30px;
+    color: white;
+    background-color:#7289da;    
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 50px;     
 }
