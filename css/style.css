@@ -201,13 +201,12 @@ footer{
 }
 
 .footer-content{      
-    background-color: darkgreen;
-    width: 80%;
+    /* background-color: darkgreen; */
+    width: 60%;
     height: 600px;
-    font-size: 16px;
-    
-    
+    font-size: 16px;          
 }
+
 
 footer > .footer-content{
     position: absolute;             
@@ -219,11 +218,12 @@ footer > .footer-content{
 
 .footer-content h3, p{
     color: #7289da;
+    padding-bottom: 10px;
 }
 
 /* blocco sx */
 .sezione-footer-sx{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 25%;
     height: 80%;
     font-size: 30px;
@@ -234,7 +234,7 @@ footer > .footer-content{
 
 /* INIZIO BLOCCO DX */
 .sezione-footer-dx{
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 75%;
     height: 80%;
     float: right;        
@@ -262,41 +262,42 @@ footer > .footer-content{
 } 
 
 .lista-prodotto{
-    background-color: burlywood;
+    /* background-color: burlywood; */
     width: 25%;
     height: 100%;
     float: left;   
-    padding: 15px 15px;    
+    padding: 15px 70px;    
 }
 
 .lista-compagnia{
-    background-color: rgb(218, 144, 47);
+    /* background-color: rgb(218, 144, 47); */
     width: 25%;
     height: 100%;
     float: left;
-    padding: 15px 15px;
+    padding: 15px 70px;
 }
 
 .lista-risorse{
-    background-color: rgb(135, 212, 222);
+    /* background-color: rgb(135, 212, 222); */
     width: 25%;
     height: 100%;
     float: left;
-    padding: 15px 15px;
+    padding: 15px 70px;
 }
 
 .lista-norme{
-    background-color: rgb(205, 135, 222);
+    /* background-color: rgb(205, 135, 222); */
     width: 25%;
     height: 100%;
     float: left;
-    padding: 15px 15px;
+    padding: 15px 70px;
 }
 /* FINE BLOCCO DX */
 
 
 /* sezione da sotto la linea */
 .footer-under-line hr{
+    margin-top: 43%;
     color: #7289da;;
 }
 
@@ -304,8 +305,6 @@ footer > .footer-content{
     float: left;
     margin-top: 35px;
 }
-
-
 
 .butn-registrati{    
     float: right;    
