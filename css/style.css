@@ -35,7 +35,7 @@
 }
 
 /* sezione menu */
-ul{
+.nav ul{
     display: inline-block;
 }
 
@@ -190,17 +190,59 @@ footer{
 }
 
 .footer-content{
+    margin-left: 10%;
+    bottom: 13%;
     background-color: darkgreen;
     width: 80%;
     height: 400px;
 } 
 
+.sezione-footer-sx{
+    background-color: blueviolet;
+    width: 25%;
+    height: 70%;
+}
 .sezione-footer-dx{
     background-color: tomato;
     width: 75%;
     height: 70%;
-    float: right;
+    float: right;        
+}
 
+.lista-prodotto{
+    background-color: burlywood;
+    width: 25%;
+    height: 100%;
+    float: left;   
+    padding: 15px 15px;    
+}
+
+.sezione-footer-dx li{
+    list-style-type: none;
+}
+
+.lista-compagnia{
+    background-color: rgb(218, 144, 47);
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 15px 15px;
+}
+
+.lista-risorse{
+    background-color: rgb(135, 212, 222);
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 15px 15px;
+}
+
+.lista-norme{
+    background-color: rgb(205, 135, 222);
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 15px 15px;
 }
 
 
@@ -211,10 +253,9 @@ footer{
     color: #7289da;;
 }
 
-.logo{
+.logo-footer{
     float: left;
     margin-top: 30px;
-
 }
 
 
