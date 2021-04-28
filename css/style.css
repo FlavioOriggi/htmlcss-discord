@@ -196,11 +196,20 @@ footer{
 } 
 
 .sezione-footer-dx{
-    
+    background-color: tomato;
+    width: 75%;
+    height: 70%;
+    float: right;
+
 }
 
 
 
+/* sezione da sotto la linea */
+
+.footer-under-line hr{
+    color: #7289da;;
+}
 
 .logo{
     float: left;
