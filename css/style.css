@@ -192,20 +192,28 @@
 
 
 
-/* footer */
+/* INIZIO FOOTER*/
 footer{
     background-color: #23272a;
     height: 700px;
     width: 100%;
+    position: relative;
 }
 
-.footer-content{
-    margin-left: 10%;
-    bottom: 13%;
+.footer-content{      
     background-color: darkgreen;
     width: 80%;
     height: 600px;
     font-size: 16px;
+    
+    
+}
+
+footer > .footer-content{
+    position: absolute;             
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 } 
 
 
@@ -294,14 +302,14 @@ footer{
 
 .logo-footer{
     float: left;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 
 
 .butn-registrati{    
     float: right;    
-    margin-top: 30px;
+    margin-top: 35px;
     color: white;
     background-color:#7289da;    
     width: 90px;
